@@ -3,7 +3,7 @@
   <id>com.github.utsushi.Utsushi</id>
   <name>Image Scan</name>
   <developer_name>SEIKO EPSON CORPORATION</developer_name>
-  <summary>Image acquisition utilities</summary>
+  <summary>Image acquisition utilities for Epson</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0</project_license>
   <url type="homepage">https://github.com/utsushi/utsushi</url>
@@ -12,6 +12,9 @@
       This software provides applications to easily turn hard-copy
       documents and imagery into formats that are more amenable to
       computer processing.
+    </p>
+    <p>
+      This software only works with Epson scanners.
     </p>
   </description>
   <screenshots>
