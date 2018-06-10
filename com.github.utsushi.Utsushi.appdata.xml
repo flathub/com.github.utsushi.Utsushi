@@ -3,7 +3,7 @@
   <id>com.github.utsushi.Utsushi</id>
   <name>Image Scan</name>
   <name xml:lang="pt_BR">Scanner da Epson</name>
-  <name xml:lang="es">Escáner de Epson</name>
+  <name xml:lang="es">Escáner Epson</name>
   <developer_name>SEIKO EPSON CORPORATION</developer_name>
   <summary>Image acquisition utilities for Epson</summary>
   <summary xml:lang="pt_BR">Faça cópias digitais de suas fotos e documentos</summary>
