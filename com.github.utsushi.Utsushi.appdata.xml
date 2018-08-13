@@ -12,7 +12,7 @@
   <summary xml:lang="id">Membuat salinan digital untuk foto dan dokumen Anda</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0</project_license>
-  <url type="homepage">https://github.com/utsushi/utsushi</url>
+  <url type="homepage">https://gitlab.com/utsushi/utsushi</url>
   <launchable type="desktop-id">com.github.utsushi.Utsushi.desktop</launchable>
   <description><p>Preserving your photos and important documents by making digital copies has never been easier! Simply hook up the scanner to your computer, open this app, and start scanning. Once a document or photo is digitized, sharing them is as easy as sending them via email, uploading them to your favorite social network, or putting them on a USB memory. This app will let you make sure the things you scan are clear, straight, and in any format you need **(This application only works with Epson scanners.)**</p></description>
   <description xml:lang="pt_BR"><p>Preserve suas fotos e documentos importantes criando cópias digitais nunca foi tão fácil! Tenha seu scanner conectado ao seu computador , abra este programa e comece à digitalizar. Quando uma foto ou documento é digitalizado, é super fácil compartilhá-la por e-mail, enviá-la para sua rede social favorita ou colocá-la em um pen-drive. Este programa certamente te ajudará a realizar digitalizações com precisão, clareza e no formato de arquivo que você precisa! **(Este aplicativo só funciona com scanners da Epson).**</p></description>
