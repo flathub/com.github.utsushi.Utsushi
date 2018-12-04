@@ -1,36 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
   <id>com.github.utsushi.Utsushi</id>
-  <name>Image Scan</name>
+  <name>Scanner Epson</name>
   <name xml:lang="pt_BR">Scanner da Epson</name>
   <name xml:lang="es">Escáner Epson</name>
+  <name xml:lang="id">Scanner Epson</name>
+  <name xml:lang="hu">Epson szkenner</name>
   <developer_name>SEIKO EPSON CORPORATION</developer_name>
-  <summary>Image acquisition utilities for Epson</summary>
+  <summary>Make a digital copy of your photos and documents</summary>
   <summary xml:lang="pt_BR">Faça cópias digitais de suas fotos e documentos</summary>
   <summary xml:lang="es">Haz copias digitales de tus fotos y documentos</summary>
+  <summary xml:lang="id">Membuat salinan digital untuk foto dan dokumen Anda</summary>
+  <summary xml:lang="hu">Készítsen digitális másolatot fényképeiről és dokumentumairól!</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0</project_license>
-  <url type="homepage">https://github.com/utsushi/utsushi</url>
+  <url type="homepage">https://gitlab.com/utsushi/utsushi</url>
   <launchable type="desktop-id">com.github.utsushi.Utsushi.desktop</launchable>
-  <description>
-    <p>
-      This software provides applications to easily turn hard-copy
-      documents and imagery into formats that are more amenable to
-      computer processing.
-    </p>
-    <p>
-      This software only works with Epson scanners.
-    </p>
-  </description>
+  <description><p>Preserving your photos and important documents by making digital copies has never been easier! Simply hook up the scanner to your computer, open this app, and start scanning. Once a document or photo is digitized, sharing them is as easy as sending them via email, uploading them to your favorite social network, or putting them on a USB memory. This app will let you make sure the things you scan are clear, straight, and in any format you need **(This application only works with Epson scanners.)**</p></description>
   <description xml:lang="pt_BR"><p>Preserve suas fotos e documentos importantes criando cópias digitais nunca foi tão fácil! Tenha seu scanner conectado ao seu computador , abra este programa e comece à digitalizar. Quando uma foto ou documento é digitalizado, é super fácil compartilhá-la por e-mail, enviá-la para sua rede social favorita ou colocá-la em um pen-drive. Este programa certamente te ajudará a realizar digitalizações com precisão, clareza e no formato de arquivo que você precisa! **(Este aplicativo só funciona com scanners da Epson).**</p></description>
   <description xml:lang="es"><p>¡Ahora preservar tus fotos y documentos importantes es más fácil que nunca! Solo conecta el escáner a tu computadora, abre este programa y comienza a escanear. Una vez que un documento o una foto este digitalizado, compartirlos es igual de fácil. Puedes enviarlos por correo electrónico, cargarlos en tu red social favorita o ponerlos en una memoria USB. Este programa te permitirá asegurarte de que todo lo que escanees sea claro, recto y en el formato que necesitas. **(Esta aplicación sólo funciona con escáneres de Epson).**</p></description>
+  <description xml:lang="id"><p>Merawat foto dan dokumen-dokumen penting Anda dengan membuat salinan digitalnya belum pernah lebih mudah! Cukup hubungkan pemindai ke komputer Anda, buka aplikasi ini, dan mulailah memindai. Setelah dokumen atau foto didigitalisasi, membagikannya menjadi semudah mengirimkannya melalui surel, mengunggah ke media sosial favorit Anda, atau menyalinnya ke dalam stik USB. Aplikasi ini akan memungkinkan Anda memastikan segala yang Anda pindai jelas, rapi, dan dalam format apa pun yang Anda butuhkan! **(Aplikasi ini hanya berfungsi dengan pemindai Epson.)**</p></description>
+  <description xml:lang="hu"><p>A fotók és fontos dokumentumok megőrzése digitális másolatok készítésével még soha nem volt könnyebb! Egyszerűen csatlakoztassa a szkennert a számítógéphez, nyissa meg ezt az alkalmazást, és indítsa el a szkennelést. Miután egy dokumentumot vagy fényképet digitalizáltak, a megosztásuk olyan egyszerű, mint az e-mailben történő elküldésük, a kedvenc közösségi hálózatukba való feltöltésük vagy az USB-memórián valló tárolásuk. Ez az alkalmazás biztosítja, hogy a szkennelt dolgok tisztán láthatóak és jó minőségűek legyenek, amilyennek ön szeretné bármilyen formátumban, amire csak szüksége van. **(Ez az alkalmazás csak az Epson szkennerekkel működik.)**</p></description>
   <screenshots>
     <screenshot>
       <image type="source">https://raw.githubusercontent.com/flathub/com.github.utsushi.Utsushi/master/screenshots/1.png</image>
     </screenshot>
   </screenshots>
   <releases>
-    <release date="2018-04-02" version="0.38.0"/>
+    <release date="2018-09-19" version="0.48.0"/>
   </releases>
   <content_rating type="oars-1.1">
     <content_attribute id="violence-cartoon">none</content_attribute>
