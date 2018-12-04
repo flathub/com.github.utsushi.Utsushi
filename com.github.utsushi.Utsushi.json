@@ -60,8 +60,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.48/glibmm-2.48.1.tar.xz",
-                    "sha256": "dc225f7d2f466479766332483ea78f82dc349d59399d30c00de50e5073157cdf"
+                    "url": "https://ftp.acc.umu.se/pub/GNOME/sources/glibmm/2.59/glibmm-2.59.1.tar.xz",
+                    "sha256": "9bc60139188c3f61be499b3bc35e817cf38c6e01dc4faa82e5f8070951d666b8"
                 }
             ]
         },
