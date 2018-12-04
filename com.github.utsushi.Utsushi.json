@@ -2,7 +2,7 @@
     "app-id" : "com.github.utsushi.Utsushi",
     "command": "utsushi",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "3.26",
+    "runtime-version" : "3.28",
     "sdk" : "org.gnome.Sdk",
     "finish-args" : [
 	"--socket=x11",
@@ -141,8 +141,8 @@
 	    "sources": [
 		{
 		    "type": "git",
-		    "url": "https://github.com/utsushi/utsushi.git",
-		    "commit": "803bb42b133a2c3ffcc7df7b6d76a0c363f06618"
+		    "url": "https://gitlab.com/utsushi/utsushi.git",
+		    "commit": "6e0eedc6e7100fe954f8bedde987e933e6ecb40f"
 		},
 		{
 		    "type": "file",
