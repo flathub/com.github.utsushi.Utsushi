@@ -10,7 +10,7 @@
   <summary xml:lang="es">Haz copias digitales de tus fotos y documentos</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0</project_license>
-  <url type="homepage">https://github.com/utsushi/utsushi</url>
+  <url type="homepage">https://gitlab.com/utsushi/utsushi</url>
   <launchable type="desktop-id">com.github.utsushi.Utsushi.desktop</launchable>
   <description>
     <p>

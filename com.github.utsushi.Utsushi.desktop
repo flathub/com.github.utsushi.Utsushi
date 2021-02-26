@@ -8,4 +8,4 @@ GenericName=Scan Dialog
 
 Exec=utsushi scan
 Terminal=false
-Icon=scanner
+Icon=com.github.utsushi.Utsushi
