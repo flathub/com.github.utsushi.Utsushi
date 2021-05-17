@@ -131,7 +131,7 @@
 				},
 				{
 					"type": "file",
-					"path": "com.github.utsushi.Utsushi.appdata.xml"
+					"path": "com.github.utsushi.Utsushi.metainfo.xml"
 				},
 				{
 					"type": "file",
@@ -148,7 +148,7 @@
 			],
 			"post-install": [
 				"install -Dm644 com.github.utsushi.Utsushi.desktop /app/share/applications/com.github.utsushi.Utsushi.desktop",
-				"install -Dm644 com.github.utsushi.Utsushi.appdata.xml /app/share/appdata/com.github.utsushi.Utsushi.appdata.xml",
+				"install -Dm644 com.github.utsushi.Utsushi.metainfo.xml /app/share/appdata/com.github.utsushi.Utsushi.metainfo.xml",
 				"install -Dm644 com.github.utsushi.Utsushi.png /app/share/icons/hicolor/256x256/apps/com.github.utsushi.Utsushi.png",
 				"rm /app/bin/utsushi",
 				"cp utsushi-bin /app/bin/utsushi"
