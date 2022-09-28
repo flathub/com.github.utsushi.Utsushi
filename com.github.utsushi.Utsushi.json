@@ -1,9 +1,9 @@
 {
     "app-id" : "com.github.utsushi.Utsushi",
     "command": "utsushi",
-    "runtime" : "org.gnome.Platform",
-    "runtime-version" : "42",
-    "sdk" : "org.gnome.Sdk",
+    "runtime" : "org.freedesktop.Platform",
+    "runtime-version" : "22.08",
+    "sdk" : "org.freedesktop.Sdk",
     "finish-args" : [
         "--socket=x11",
         "--share=ipc",
@@ -27,8 +27,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.79.0/source/boost_1_79_0.tar.bz2",
-                    "sha256": "475d589d51a7f8b3ba2ba4eda022b170e562ca3b760ee922c146b6c65856ef39"
+                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.80.0/source/boost_1_80_0.tar.bz2",
+                    "sha256": "1e19565d82e43bc59209a168f5ac899d3ba471d55c7610c677d4ccf2c9c500c0"
                 }
             ],
             "buildsystem": "simple",
@@ -65,7 +65,9 @@
                 }
             ],
             "config-opts": [
-                "--disable-documentation"
+                "--disable-documentation",
+                "--enable-static=no",
+                "--enable-shared=yes"
             ],
             "cleanup": [
                 "/lib/sigc++-2.0"
@@ -76,8 +78,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/glibmm/2.66/glibmm-2.66.3.tar.xz",
-                    "sha256": "afb96202491485d3f44102d98219a172da2d3f9eb78fce3cfb92559ba496e499"
+                    "url": "https://download.gnome.org/sources/glibmm/2.66/glibmm-2.66.4.tar.xz",
+                    "sha256": "199ace5682d81b15a1d565480b4a950682f2db6402c8aa5dd7217d71edff81d5"
                 }
             ],
             "buildsystem": "meson",
@@ -101,7 +103,9 @@
                 }
             ],
             "config-opts": [
-                "--disable-documentation"
+                "--disable-documentation",
+                "--enable-static=no",
+                "--enable-shared=yes"
             ],
             "cleanup": [
                 "/lib/cairomm-1.0"
@@ -129,8 +133,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/atkmm/2.28/atkmm-2.28.2.tar.xz",
-                    "sha256": "a0bb49765ceccc293ab2c6735ba100431807d384ffa14c2ebd30e07993fd2fa4"
+                    "url": "https://download.gnome.org/sources/atkmm/2.28/atkmm-2.28.3.tar.xz",
+                    "sha256": "7c2088b486a909be8da2b18304e56c5f90884d1343c8da7367ea5cd3258b9969"
                 }
             ],
             "buildsystem": "meson",
