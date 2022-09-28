@@ -182,6 +182,7 @@
             },
             "config-opts": [
                 "--with-boost-libdir=/app/lib",
+                "--enable-udev-config=no",
                 "--with-gtkmm",
                 "--with-jpeg",
                 "--with-tiff",
