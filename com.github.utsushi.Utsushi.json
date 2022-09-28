@@ -177,6 +177,9 @@
         },
         {
             "name": "utsushi",
+            "build-options": {
+                "cxxflags": "-Wno-error"
+            },
             "config-opts": [
                 "--with-boost-libdir=/app/lib",
                 "--with-gtkmm",
