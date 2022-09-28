@@ -14,6 +14,7 @@
         "*.a",
         "*.la",
         "/include",
+        "/lib/cmake",
         "/lib/pkgconfig",
         "/share/aclocal",
         "/share/pkgconfig",
@@ -155,8 +156,8 @@
                 }
             ],
             "cleanup": [
-                "/lib/gdkmm-2.0",
-                "/lib/gtkmm-2.0"
+                "/lib/gdkmm-2.4",
+                "/lib/gtkmm-2.4"
             ]
         },
         {
@@ -165,7 +166,10 @@
                 "--enable-shared=yes"
             ],
             "cleanup": [
-                "/bin/GraphicsMagick*config"
+                "/bin/gm",
+                "/bin/GraphicsMagick*config",
+                "/lib/GraphicsMagick*",
+                "/share/GraphicsMagick*"
             ],
             "sources": [
                 {
