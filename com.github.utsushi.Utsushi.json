@@ -2,7 +2,7 @@
     "app-id" : "com.github.utsushi.Utsushi",
     "command": "utsushi",
     "runtime" : "org.freedesktop.Platform",
-    "runtime-version" : "23.08",
+    "runtime-version" : "25.08",
     "sdk" : "org.freedesktop.Sdk",
     "finish-args" : [
         "--socket=x11",
@@ -28,7 +28,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.80.0/source/boost_1_80_0.tar.bz2",
+                    "url": "https://archives.boost.io/release/1.80.0/source/boost_1_80_0.tar.bz2",
                     "sha256": "1e19565d82e43bc59209a168f5ac899d3ba471d55c7610c677d4ccf2c9c500c0"
                 }
             ],
@@ -40,7 +40,6 @@
             ]
         },
         "shared-modules/gudev/gudev.json",
-        "shared-modules/libusb/libusb.json",
         "shared-modules/gtk2/gtk2.json",
         {
             "name": "mm-common",
@@ -200,8 +199,11 @@
                     "commit": "839d06a5a80b353cb604eb9f7d352a1648ab1fdf"
                 },
                 {
-                    "type":"patch",
-                    "path":"0001-switch-to-uint_t.patch"
+                    "type": "patch",
+                    "paths": [
+			"0001-switch-to-uint_t.patch",
+			"0002-makefile-am.patch"
+		    ]
                 },
                 {
                     "type": "file",
@@ -218,7 +220,7 @@
                 {
                     "type": "file",
                     "path": "utsushi-bin"
-                }
+		}
             ],
             "post-install": [
                 "install -Dm644 com.github.utsushi.Utsushi.desktop /app/share/applications/com.github.utsushi.Utsushi.desktop",

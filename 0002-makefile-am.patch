@@ -1,0 +1,28 @@
+diff --git a/drivers/esci/Makefile.am b/drivers/esci/Makefile.am
+index 09becc8..dbbbbb2 100644
+--- a/drivers/esci/Makefile.am
++++ b/drivers/esci/Makefile.am
+@@ -264,11 +264,7 @@ EXTRA_DIST += $(driverdata_DATA)
+ clone_dat = \
+ 	src=`echo $< | sed 's,^.*/,,; s,\.dat$$,,'`; \
+ 	dst=`echo $@ | sed 's,^.*/,,; s,\.dat$$,,'`; \
+-	sed -e "s,\(\#PRDh...\)$$src,\1$$dst," \
+-	    -e 's,\([^\#]\)IPL ....,\1IPL     ,' \
+-	    -e 's,\([^\#]\)ADF ....,\1ADF     ,' \
+-	    -e 's,\([^\#]\)FB  ....,\1FB      ,' \
+-	    -e 's,\([^\#]\)TPU ....,\1TPU     ,' \
++	sed -f $(srcdir)/sed.script \
+ 	    $< > $@
+ 
+ $(srcdir)/data/DS-310.dat: $(srcdir)/data/DS-360W.dat
+diff --git a/drivers/esci/sed.script b/drivers/esci/sed.script
+new file mode 100644
+index 0000000..ef1d02b
+--- /dev/null
++++ b/drivers/esci/sed.script
+@@ -0,0 +1,5 @@
++s,\(\#PRDh...\)$$src,\1$$dst,
++s,\([^\#]\)IPL ....,\1IPL     ,
++s,\([^\#]\)ADF ....,\1ADF     ,
++s,\([^\#]\)FB  ....,\1FB      ,
++s,\([^\#]\)TPU ....,\1TPU     ,
