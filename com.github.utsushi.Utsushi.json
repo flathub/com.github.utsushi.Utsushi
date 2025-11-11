@@ -39,7 +39,6 @@
                 "./b2 install"
             ]
         },
-        "shared-modules/gudev/gudev.json",
         "shared-modules/gtk2/gtk2.json",
         {
             "name": "mm-common",
