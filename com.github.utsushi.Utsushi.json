@@ -210,7 +210,7 @@
                 "install -Dm644 com.github.utsushi.Utsushi.metainfo.xml /app/share/appdata/com.github.utsushi.Utsushi.metainfo.xml",
                 "install -Dm644 com.github.utsushi.Utsushi.png /app/share/icons/hicolor/256x256/apps/com.github.utsushi.Utsushi.png",
                 "rm /app/bin/utsushi",
-                "cp utsushi-bin /app/bin/utsushi"
+                "install -Dm755 utsushi-bin /app/bin/utsushi"
             ]
         }
     ]
